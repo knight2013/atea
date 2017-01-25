@@ -1,0 +1,461 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <MainUnit Value="0"/>
+      <ResourceType Value="res"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="29">
+      <Unit0>
+        <Filename Value="atea.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="atea"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="28" Y="10"/>
+        <UsageCount Value="70"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="main"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="47"/>
+        <CursorPos X="81" Y="80"/>
+        <UsageCount Value="70"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="mplayerclass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MplayerClass"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="220"/>
+        <CursorPos X="1" Y="232"/>
+        <UsageCount Value="70"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="/usr/share/fpcsrc/2.4.4/packages/fcl-process/src/process.pp"/>
+        <UnitName Value="process"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="21"/>
+        <CursorPos X="35" Y="34"/>
+        <UsageCount Value="7"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="/usr/share/fpcsrc/2.4.4/packages/fcl-process/src/pipes.pp"/>
+        <UnitName Value="Pipes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/include/control.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2272"/>
+        <CursorPos X="1" Y="2289"/>
+        <UsageCount Value="11"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="139"/>
+        <CursorPos X="1" Y="157"/>
+        <UsageCount Value="7"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="/usr/share/fpcsrc/2.4.4/rtl/inc/ustringh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5"/>
+        <CursorPos X="10" Y="23"/>
+        <UsageCount Value="7"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="/usr/share/fpcsrc/2.4.4/rtl/inc/ustrings.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="19" Y="2"/>
+        <UsageCount Value="7"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="RegExpr.pas"/>
+        <UnitName Value="RegExpr"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="111"/>
+        <CursorPos X="91" Y="129"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="playlistclass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PlayListClass"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="222"/>
+        <CursorPos X="17" Y="243"/>
+        <UsageCount Value="62"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="mplayerframeclass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MplayerFrameClass"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="mplayerframeclass"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="242"/>
+        <CursorPos X="47" Y="256"/>
+        <UsageCount Value="57"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="mplayerframe.lfm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="68" Y="6"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="mplayerframeclass.lfm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="8" Y="1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/include/buttoncontrol.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="46"/>
+        <CursorPos X="102" Y="46"/>
+        <UsageCount Value="13"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="playlistedit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="playlistedit"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="18"/>
+        <CursorPos X="14" Y="35"/>
+        <UsageCount Value="48"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="/usr/share/fpcsrc/2.4.4/rtl/objpas/classes/classesh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="592"/>
+        <CursorPos X="22" Y="542"/>
+        <UsageCount Value="15"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/lclproc.pas"/>
+        <UnitName Value="LCLProc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1527"/>
+        <CursorPos X="1" Y="1544"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/include/buttons.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="313"/>
+        <CursorPos X="1" Y="342"/>
+        <UsageCount Value="9"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/include/wincontrol.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5225"/>
+        <CursorPos X="1" Y="5242"/>
+        <UsageCount Value="9"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/lclmessageglue.pas"/>
+        <UnitName Value="LCLMessageGlue"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="100"/>
+        <CursorPos X="1" Y="121"/>
+        <UsageCount Value="9"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/interfaces/gtk2/gtk2wsstdctrls.pp"/>
+        <UnitName Value="Gtk2WSStdCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2191"/>
+        <CursorPos X="1" Y="2208"/>
+        <UsageCount Value="9"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/interfaces/gtk2/gtk2widgetset.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2508"/>
+        <CursorPos X="24" Y="2524"/>
+        <UsageCount Value="9"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="/usr/share/fpcsrc/2.4.4/rtl/objpas/sysutils/sysstrh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="40" Y="33"/>
+        <UsageCount Value="14"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="/usr/share/fpcsrc/2.4.4/rtl/objpas/sysutils/sysstr.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="473"/>
+        <CursorPos X="5" Y="475"/>
+        <UsageCount Value="9"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="194"/>
+        <CursorPos X="22" Y="216"/>
+        <UsageCount Value="9"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/include/filedialog.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="324"/>
+        <CursorPos X="44" Y="352"/>
+        <UsageCount Value="9"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="/usr/share/fpcsrc/2.4.4/rtl/objpas/classes/stringl.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="766"/>
+        <CursorPos X="3" Y="770"/>
+        <UsageCount Value="9"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="384"/>
+        <CursorPos X="85" Y="401"/>
+        <UsageCount Value="10"/>
+      </Unit28>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="136" Column="14" TopLine="120"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mplayerframeclass.pas"/>
+        <Caret Line="156" Column="12" TopLine="152"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="133" Column="12" TopLine="127"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mplayerframeclass.pas"/>
+        <Caret Line="156" Column="12" TopLine="152"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mplayerframeclass.pas"/>
+        <Caret Line="163" Column="13" TopLine="159"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="131" Column="15" TopLine="124"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mplayerframeclass.pas"/>
+        <Caret Line="163" Column="13" TopLine="159"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mplayerframeclass.pas"/>
+        <Caret Line="156" Column="11" TopLine="152"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="128" Column="3" TopLine="125"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mplayerframeclass.pas"/>
+        <Caret Line="156" Column="13" TopLine="142"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="149" Column="25" TopLine="125"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="38" Column="17" TopLine="25"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="77" Column="77" TopLine="49"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="133" Column="32" TopLine="105"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="134" Column="23" TopLine="106"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="149" Column="32" TopLine="121"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="150" Column="23" TopLine="122"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mplayerframeclass.pas"/>
+        <Caret Line="148" Column="26" TopLine="142"/>
+      </Position19>
+      <Position20>
+        <Filename Value="mplayerframeclass.pas"/>
+        <Caret Line="254" Column="19" TopLine="239"/>
+      </Position20>
+      <Position21>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="217" Column="12" TopLine="202"/>
+      </Position21>
+      <Position22>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="209" Column="1" TopLine="202"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="211" Column="18" TopLine="202"/>
+      </Position23>
+      <Position24>
+        <Filename Value="mplayerframeclass.pas"/>
+        <Caret Line="254" Column="19" TopLine="69"/>
+      </Position24>
+      <Position25>
+        <Filename Value="mplayerframeclass.pas"/>
+        <Caret Line="156" Column="13" TopLine="152"/>
+      </Position25>
+      <Position26>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="150" Column="21" TopLine="125"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="214" Column="9" TopLine="210"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="229" Column="6" TopLine="210"/>
+      </Position28>
+      <Position29>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="234" Column="30" TopLine="230"/>
+      </Position29>
+      <Position30>
+        <Filename Value="mplayerclass.pas"/>
+        <Caret Line="256" Column="32" TopLine="220"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="9"/>
+    <Target>
+      <Filename Value="atea"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="/usr/lib/lazarus/0.9.30.4/lcl/units/$(TargetCPU)-$(TargetOS)/;/usr/lib/lazarus/0.9.30.4/lcl/interfaces/gtk2/"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <StripSymbols Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="unit"/>
+        <Enabled Value="False"/>
+      </Item1>
+    </Watches>
+    <Exceptions Count="6">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+      <Item4>
+        <Name Value="EConvertError"/>
+      </Item4>
+      <Item5>
+        <Name Value="EResNotFound"/>
+      </Item5>
+      <Item6>
+        <Name Value="EInvalidOperation"/>
+      </Item6>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

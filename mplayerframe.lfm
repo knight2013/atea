@@ -1,0 +1,205 @@
+object MplayerFrameClass: TMplayerFrameClass
+  Left = 0
+  Height = 89
+  Top = 0
+  Width = 847
+  ClientHeight = 89
+  ClientWidth = 847
+  TabOrder = 0
+  DesignLeft = 615
+  DesignTop = 416
+  object Panel1: TPanel
+    Left = 0
+    Height = 90
+    Top = 0
+    Width = 850
+    Caption = ' '
+    ClientHeight = 90
+    ClientWidth = 850
+    TabOrder = 0
+    object Button1: TButton
+      Left = 16
+      Height = 25
+      Top = 20
+      Width = 75
+      Caption = 'Play'
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 96
+      Height = 25
+      Top = 20
+      Width = 75
+      Caption = 'Stop'
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 176
+      Height = 25
+      Top = 20
+      Width = 75
+      Caption = 'Pause'
+      TabOrder = 2
+    end
+    object Button4: TButton
+      Left = 752
+      Height = 25
+      Top = 16
+      Width = 75
+      Caption = 'Playlist'
+      TabOrder = 3
+    end
+    object nameLabel: TLabel
+      Left = 320
+      Height = 23
+      Top = 8
+      Width = 14
+      Caption = '[]'
+      ParentColor = False
+    end
+    object procentLabel: TLabel
+      Left = 320
+      Height = 23
+      Top = 32
+      Width = 11
+      Caption = '0'
+      ParentColor = False
+    end
+    object posLabel: TLabel
+      Left = 440
+      Height = 23
+      Top = 32
+      Width = 11
+      Caption = '0'
+      ParentColor = False
+    end
+    object lenLabel: TLabel
+      Left = 560
+      Height = 23
+      Top = 32
+      Width = 11
+      Caption = '0'
+      ParentColor = False
+    end
+    object commLabel: TLabel
+      Left = 560
+      Height = 23
+      Top = 8
+      Width = 14
+      Caption = '[]'
+      ParentColor = False
+    end
+    object volumeLabel: TLabel
+      Left = 320
+      Height = 23
+      Top = 60
+      Width = 11
+      Caption = '0'
+      ParentColor = False
+    end
+    object pauseLabel: TLabel
+      Left = 440
+      Height = 23
+      Top = 56
+      Width = 11
+      Caption = '0'
+      ParentColor = False
+    end
+    object Next: TButton
+      Left = 176
+      Height = 25
+      Top = 56
+      Width = 75
+      Caption = 'Next'
+      TabOrder = 4
+    end
+    object Prev: TButton
+      Left = 96
+      Height = 25
+      Top = 56
+      Width = 75
+      Caption = 'Prev'
+      TabOrder = 5
+    end
+    object playlistLabel: TLabel
+      Left = 560
+      Height = 23
+      Top = 64
+      Width = 14
+      Caption = '[]'
+      ParentColor = False
+    end
+    object editorBtn2: TButton
+      Left = 16
+      Height = 25
+      Top = 56
+      Width = 75
+      Caption = 'Edit'
+      TabOrder = 6
+    end
+    object Label1: TLabel
+      Left = 256
+      Height = 23
+      Top = 8
+      Width = 32
+      Caption = 'File:'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 472
+      Height = 23
+      Top = 8
+      Width = 85
+      Caption = 'Comment:'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 256
+      Height = 23
+      Top = 32
+      Width = 62
+      Caption = 'Pos(%):'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 368
+      Height = 23
+      Top = 32
+      Width = 55
+      Caption = 'Pos(s):'
+      ParentColor = False
+    end
+    object Label5: TLabel
+      Left = 472
+      Height = 23
+      Top = 32
+      Width = 81
+      Caption = 'Length(s):'
+      ParentColor = False
+    end
+    object Label6: TLabel
+      Left = 256
+      Height = 23
+      Top = 56
+      Width = 65
+      Caption = 'Volume:'
+      ParentColor = False
+    end
+    object Label7: TLabel
+      Left = 368
+      Height = 23
+      Top = 58
+      Width = 73
+      Caption = 'Pause(s):'
+      ParentColor = False
+    end
+    object Label15: TLabel
+      Left = 476
+      Height = 23
+      Top = 60
+      Width = 59
+      Caption = 'Playlist:'
+      ParentColor = False
+    end
+  end
+end

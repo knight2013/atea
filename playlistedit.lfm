@@ -1,0 +1,158 @@
+object Form2: TForm2
+  Left = 504
+  Height = 412
+  Top = 263
+  Width = 870
+  Caption = 'Playlist'
+  ClientHeight = 412
+  ClientWidth = 870
+  OnClose = FormClose
+  LCLVersion = '0.9.30.4'
+  object Panel1: TPanel
+    Left = 0
+    Height = 130
+    Top = 282
+    Width = 870
+    Align = alBottom
+    Caption = 'Panel1'
+    ClientHeight = 130
+    ClientWidth = 870
+    TabOrder = 0
+    object btnNew: TButton
+      Left = 8
+      Height = 25
+      Top = 8
+      Width = 75
+      Caption = 'New'
+      OnClick = btnNewClick
+      TabOrder = 0
+    end
+    object btnDelete: TButton
+      Left = 168
+      Height = 25
+      Top = 8
+      Width = 75
+      Caption = 'Delete'
+      OnClick = btnDeleteClick
+      TabOrder = 1
+    end
+    object btnUpdate: TButton
+      Left = 88
+      Height = 25
+      Top = 8
+      Width = 75
+      Caption = 'Update'
+      OnClick = btnUpdateClick
+      TabOrder = 2
+    end
+    object Label1: TLabel
+      Left = 11
+      Height = 23
+      Top = 48
+      Width = 72
+      Caption = 'Filename'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 7
+      Height = 23
+      Top = 84
+      Width = 81
+      Caption = 'Comment'
+      ParentColor = False
+    end
+    object lab1: TLabel
+      Left = 576
+      Height = 23
+      Top = 46
+      Width = 61
+      Caption = 'Volume'
+      ParentColor = False
+    end
+    object edtFilename: TEdit
+      Left = 104
+      Height = 32
+      Top = 46
+      Width = 400
+      TabOrder = 3
+    end
+    object edtComment: TEdit
+      Left = 104
+      Height = 32
+      Top = 84
+      Width = 456
+      MaxLength = 50
+      TabOrder = 4
+    end
+    object lab2: TLabel
+      Left = 576
+      Height = 23
+      Top = 84
+      Width = 88
+      Caption = 'Autopause'
+      ParentColor = False
+    end
+    object edtVolume: TEdit
+      Left = 687
+      Height = 32
+      Top = 46
+      Width = 172
+      TabOrder = 5
+    end
+    object edtPause: TEdit
+      Left = 689
+      Height = 32
+      Top = 84
+      Width = 170
+      TabOrder = 6
+    end
+    object btnLoad: TButton
+      Left = 632
+      Height = 25
+      Top = 8
+      Width = 75
+      Caption = 'Load'
+      OnClick = btnLoadClick
+      TabOrder = 7
+    end
+    object btnSave: TButton
+      Left = 792
+      Height = 25
+      Top = 6
+      Width = 75
+      Caption = 'Save as'
+      OnClick = btnSaveClick
+      TabOrder = 8
+    end
+    object btnGetFilename: TButton
+      Left = 504
+      Height = 25
+      Top = 46
+      Width = 48
+      Caption = '...'
+      OnClick = btnGetFilenameClick
+      TabOrder = 9
+    end
+    object btnSave1: TButton
+      Left = 712
+      Height = 25
+      Top = 6
+      Width = 75
+      Caption = 'Save'
+      OnClick = btnSave1Click
+      TabOrder = 10
+    end
+  end
+  object ListBox1: TListBox
+    Left = 0
+    Height = 282
+    Top = 0
+    Width = 870
+    Align = alClient
+    ItemHeight = 0
+    OnClick = ListBox1Click
+    ScrollWidth = 868
+    TabOrder = 1
+    TopIndex = -1
+  end
+end
